@@ -11,7 +11,6 @@ int main()
         std::cout << "Input a number between 0 and 100: ";
         std::cin >> input;
 
-
         if (input >= 0 && input <= 100 && std::cin)
         {
 
@@ -30,9 +29,9 @@ int main()
         }
         else if (!(input >= 0) && !(input >= 100))
         {
-            std::cout << "Input no within range..." << std::endl;
+            std::cout << "Input not within range..." << std::endl;
         }
-        
+
         if (!std::cin)
         {
             std::cout << "Invalid Input..." << std::endl;
